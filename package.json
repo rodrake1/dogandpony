@@ -8,6 +8,13 @@
   },
   "dependencies": {
     "nuxt": "^2.14.6",
-    "tailwindcss": "^1.8.10"
+    "vuelidate": "^0.7.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "@tailwindcss/postcss7-compat": "^2.0.3",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^7.0.34",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.3"
   }
 }

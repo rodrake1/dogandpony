@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Proxima Nova;
+	font-weight: 300;
+	src: url("~static/fonts/proxima-nova-light.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Proxima Nova;
+	font-weight: 400;
+	src: url("~static/fonts/proxima-nova-regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Proxima Nova;
+	font-weight: 700;
+	src: url("~static/fonts/proxima-nova-bold.otf") format("opentype");
+}
+
+button:focus,
+input:focus {
+	@apply outline-none;
+}
