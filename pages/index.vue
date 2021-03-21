@@ -19,7 +19,7 @@
       />
     </transition>
 
-    <div v-for="(office, index) in offices" :key="index">
+    <div v-for="(office, index) in offices" :key="office.name">
       <transition name="fade">
         <office-card
           class="mt-6"
